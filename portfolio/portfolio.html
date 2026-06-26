@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/portfolio/portfolio.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Erick de Lima da Silva</h1>
+
+
+        <!-- menu para transição de sites -->
+        <div id="menu">
+            <a href="/principal/main.html">Sobre mim</a>
+            <a href="/formação/Formação.html">formação</a>
+            <a id="pagina_atual" href="#">portfólio</a><!--aparece sempre selecionado -->
+            <a href="/FormasDcontato/contato.html">contatos</a>
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="container">
+
+
+            <!-- abre as caixas de texto -->
+            <div class="menu">
+
+                <button onclick="mostrar('port2',this)">Tecboard</button>
+                <button onclick="mostrar('port1',this)">Carrinho-de-compras</button>
+
+            </div>
+
+            <!-- caixas de texto -->
+
+            <div class="painel" id="port2">
+
+                <h2>Tecboard</h2>
+                <p>Linguagens:css,html,javaScript</p>
+                <p>
+                    Resumo:
+                </p>
+                <p>
+                    Projeto feito no curso de front-end
+                    da Alura para praticar o segmento
+                    de instruções pelo figma,criando uma
+                    landing-page capaz de alterar
+                    entre modo claro escuro.
+                </p>
+
+                <p>Github:<a href="https://github.com/ErickdLima/Tecboard.git">Tecboard</a></p>
+
+            </div>
+
+            <div class="painel" id="port1">
+
+                <h2>Carrinho-de-compras</h2>
+                <p>Linguagens:css,html,javaScript</p>
+                <p>
+                    Resumo:
+                </p>
+                <p>
+                    Projeto com focado em lógica de programação
+                    criando uma pagina interativa
+                    de um carrinho de compras que permite
+                    adicionar,remover e acompanhar o preço
+                    dos itens.
+                </p>
+
+                <p>Github:<a href="https://github.com/ErickdLima/carrinho-compras.git">Carrinho-de-compras</a></p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>

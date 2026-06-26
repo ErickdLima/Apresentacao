@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/**header**/
+
+header{
+    background-color: #222;
+    padding: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+#menu{
+    padding: 10px;
+    
+}
+
+#menu a{
+    padding: 10px;
+    color: #fdfdfd;
+    background-color: #222;
+    text-decoration: none;
+}
+
+
+#menu a:hover{
+    color:#222;
+    background: #fff;
+    text-decoration: none;
+}
+
+#menu a#pagina_atual{
+    color:#222;
+    background: #fff;
+}
+
+/**main**/
+
+/* Centraliza o formulário na página */
+main{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Caixa do formulário */
+.form-container{
+    width:500px;
+    padding:35px;
+    border-radius:10px;
+    background:#f4f4f4;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+/* Título */
+.form-container h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* Organiza os campos em coluna */
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+/* Espaçamento dos textos */
+label{
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+/* Campos de entrada */
+input,
+textarea{
+    padding:10px;
+    font-size:16px;
+    border:1px solid #bbb;
+    border-radius:6px;
+}
+
+/* Permite alterar apenas a altura da caixa de texto */
+textarea{
+    resize:vertical;
+}
+
+/* Botão */
+button{
+    margin-top:25px;
+    padding:12px;
+    font-size:18px;
+    border:none;
+    border-radius:6px;
+    background:#222;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover{
+    background:#444;
+}
+
+/* Mensagem de retorno */
+#resposta{
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+}
+/**footer**/
+footer{
+    padding: 30px;
+    background-color: #222;
+   
+}
